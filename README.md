@@ -1,21 +1,37 @@
 # weixin
 
-> A Vue.js project
+> 毕业设计——前端vue+vue-router+iview+axios，后端Express+mongodb
 
-## Build Setup
+分为前端和后端
 
-``` bash
-# install dependencies
+后端文件在**back-end**文件夹里
+
+前端端口：8080
+后端端口：8081
+
+
+----------
+
+
+# 初始化，安装前端依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 前端环境启动
 npm run dev
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+----------
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+# 后端服务器开启
+-------------**确保开启mongodb**
+
+-------------**cd 进入back-end文件夹**
+
+**初始化，安装后端依赖**
+
+npm install
+
+**开启服务**
+
+npm app
